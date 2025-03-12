@@ -1,6 +1,6 @@
 {
   "name": "@nativescript/template-blank-vue",
-  "main": "app/app.js",
+  "main": "src/app.js",
   "displayName": "Blank",
   "version": "8.9.0",
   "description": "Blank template for NativeScript apps using Vue.",
@@ -41,11 +41,11 @@
   ],
   "dependencies": {
     "@nativescript/core": "~8.9.0",
-    "@nativescript/theme": "^3.1.0",
-    "nativescript-vue": "~2.9.3"
+    "nativescript-vue": "~3.0.0"
   },
   "devDependencies": {
+    "@nativescript/tailwind": "~2.1.0",
     "@nativescript/webpack": "~5.0.0",
-    "nativescript-vue-template-compiler": "~2.9.3"
+    "tailwindcss": "^3.4.3"
   }
 }
